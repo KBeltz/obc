@@ -4,7 +4,7 @@
 
 //***********************************************************
 //
-//               Foundation Template Styles
+//             ABOUT: Foundation Template Styles
 //
 //***********************************************************
 // body {
@@ -84,16 +84,16 @@
 //   font-family:'Shadows Into Light', cursive;
 //   font-size:44px;
 // }
-// .about,.work,.contact {
-//   padding:50px 0 0 0;
-// }
-// .about img {
-//   width:250px;
-//   height:250px;
-//   border-radius:150px;
-//   -webkit-border-radius:150px;
-//   -moz-border-radius:150px;
-// }
+.about,.work,.contact {
+  padding:50px 0 0 0;
+}
+.about img {
+  width:250px;
+  height:250px;
+  border-radius:150px;
+  -webkit-border-radius:150px;
+  -moz-border-radius:150px;
+}
 // .work img:hover {
 //   opacity:0.5;
 //   -webkit-transition:0.3s ease;
@@ -124,7 +124,7 @@
 
 //***********************************************************
 //
-//               NEW Foundation Template Styles
+//               HOME: Foundation Template Styles
 //
 //***********************************************************
 
@@ -138,4 +138,10 @@ body{font-family:'Raleway',sans-serif;font-size:18px;}hr{text-align:center;margi
 
 .custom-height {
   min-height: 600px;
+}
+.custom-text {
+  color: #000;
+}
+.custom-link {
+  color: #FFF;
 }
