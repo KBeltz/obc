@@ -1,6 +1,12 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//***********************************************************
+//
+//               Foundation Template Styles
+//
+//***********************************************************
 body {
   font-family:'Raleway',Helvetica,Arial,sans-serif;
   font-weight:400;
@@ -54,7 +60,7 @@ body {
   }
 }
 .hero {
-  background:url("stock-bike-photo.jpg");
+  background:url("OBC_mural.jpg");
   background-size:cover;
   box-shadow:inset 0px 0px 0 2000px rgba(0,0,0,0.15);
   height:100%;
@@ -115,3 +121,9 @@ footer a:hover {
   color:rgba(0,0,0,0.4);
   background-color:transparent;
 }
+
+//***********************************************************
+//
+//                      Custom Styles
+//
+//***********************************************************
