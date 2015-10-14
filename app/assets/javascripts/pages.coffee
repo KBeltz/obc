@@ -13,11 +13,11 @@ partsButton = document.getElementById('parts_button')
 parts = document.getElementById('parts')
 
 bikesButton.onclick = ->
-  bikes.style.display = 'block'
-  parts.style.display = 'none'
+  bikes.style.display == 'block'
+  parts.style.display == 'none'
   return
 
 partsButton.onclick = ->
-  parts.style.display = 'block'
-  bikes.style.display = 'none'
+  parts.style.display == 'block'
+  bikes.style.display == 'none'
   return
