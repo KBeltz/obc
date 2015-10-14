@@ -4,27 +4,7 @@
 #
 ############################################################
 #
-#   Javascript, prior to coffee conversion
-#
-############################################################
-# var bikesButton = document.getElementById('bikes_button'),
-# bikes = document.getElementById('bikes'),
-# partsButton = document.getElementById('parts_button'),
-# parts = document.getElementById('parts');
-#
-# bikesButton.onclick = function() {
-#   var isHidden = bikes.style.display == 'none';
-#   bikes.style.display = isHidden ? 'block' : 'none';
-# };
-#
-# partsButton.onclick = function() {
-#   var isHidden = parts.style.display == 'none';
-#   parts.style.display = isHidden ? 'block' : 'none';
-# };
-#
-############################################################
-#
-#   CoffeeScript, js2.coffee
+#   Brand button toggle
 #
 ############################################################
 bikesButton = document.getElementById('bikes_button')
@@ -33,11 +13,11 @@ partsButton = document.getElementById('parts_button')
 parts = document.getElementById('parts')
 
 bikesButton.onclick = ->
-  isHidden = bikes.style.display == 'none'
-  bikes.style.display = if isHidden then 'block' else 'none'
+  bikes.style.display = 'block'
+  parts.style.display = 'none'
   return
 
 partsButton.onclick = ->
-  isHidden = parts.style.display == 'none'
-  parts.style.display = if isHidden then 'block' else 'none'
+  parts.style.display = 'block'
+  bikes.style.display = 'none'
   return
